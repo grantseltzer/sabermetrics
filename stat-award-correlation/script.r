@@ -10,7 +10,7 @@ data <- data[data$IP > 150,]
 Sixties      <- data[data$Year >= 1960 & data$Year < 1970,]
 Seventies    <- data[data$Year >= 1970 & data$Year < 1980,]
 Eighties     <- data[data$Year >= 1980 & data$Year < 1990,]
-Seventies    <- data[data$Year >= 1990 & data$Year < 2000,]
+Nineties     <- data[data$Year >= 1990 & data$Year < 2000,]
 TwoThousands <- data[data$Year >= 2000 & data$Year < 2010,]
 TwoTens      <- data[data$Year >= 2010 & data$Year < 2020,]
 
