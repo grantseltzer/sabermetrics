@@ -22,18 +22,3 @@ for (i in 1:length(file_list)){
   }
 }
 
-
-
-#for(i in 2018) {
-  
-#  x <- data[data$Year == i,]
-#  al <- x[1:9,]
-#  al <- al[order(-al$WHIP),] 
-  
-#  al$WHIPRank<-NA
-#  for(i in 1:nrow(al)){
-#    al[i,]$WHIPRank = i
-#  }
-  
-#}
-
