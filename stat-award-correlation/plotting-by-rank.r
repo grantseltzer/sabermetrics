@@ -3,7 +3,7 @@ library(ggplot2)
 folder    <- "/home/rstudio/R/sabermetrics/stat-award-correlation/data/By-League/With-Stat-Rank/"
 file_list <- list.files(path=folder, pattern="*.csv")
 
-for (i in 1:1){
+for (i in 1:1) {
 
   data <- read.csv(paste(folder, file_list[i], sep=''))
   year <- strsplit(strsplit(file_list[i], "-")[[1]][3], ".csv")[[1]]
