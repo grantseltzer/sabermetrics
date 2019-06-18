@@ -9,3 +9,7 @@ getLeagueOffenseByYear <- function(year) {
         length <- nrow(table)
         return(table[length,])
 }
+
+for (year in 1900:2019) {
+  getLeagueOffenseByYear(year)
+}
