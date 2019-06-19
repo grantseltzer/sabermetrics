@@ -25,6 +25,8 @@ for (year in 1900:2019) {
   doubles        <- as.numeric(yearSummaryRow$`2B`) / plateApps * 100 
   triples        <- as.numeric(yearSummaryRow$`3B`) / plateApps * 100 
   singles        <- (as.numeric(yearSummaryRow$H) - homeruns - doubles - triples)  / plateApps * 100 
+  # singles may not be right, data seems high
+  # add stolen bases
   
   avgsOverTime[x,] = list(year, strikeouts, walks, singles, doubles, triples, homeruns)
   
